@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/edittextbg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fitnessbg" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Welcome"
+        android:textColor="#0d6e6a"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create a new account"
+        android:textColor="#0d6e6a"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/resetpassword"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#710F0F"
+        android:onClick="onclick"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="#0D6E6A" />.
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#710F0F"
+        android:onClick="onhit"
+        android:text="register"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="#0D6E6A" />.
+
+
+</LinearLayout>

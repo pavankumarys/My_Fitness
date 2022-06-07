@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edittextbg"
+    tools:context=".bmi">
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="BMI"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="#0d6e6a"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+    <EditText
+    android:id="@+id/weight"
+    android:layout_width="350dp"
+    android:layout_height="45dp"
+    android:layout_marginTop="70dp"
+    android:background="@drawable/edittextbg"
+    android:hint="weight"
+
+        android:layout_gravity="center"
+    android:inputType="text"
+    android:maxLines="1"
+    android:paddingLeft="20dp"
+    android:textColor="#0d6e6a"
+    android:textColorHint="#0D6E6A"
+    android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittextbg"
+        android:hint="height (in cm)"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textColorHint="#0D6E6A"
+        android:textStyle="bold"></EditText>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#710F0F"
+        android:text="get bmi"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="#0D6E6A" />
+
+
+</LinearLayout>

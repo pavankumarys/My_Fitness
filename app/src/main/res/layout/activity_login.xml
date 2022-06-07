@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edittextbg"
+    tools:context=".login">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fitnessbg" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="Login"
+        android:textColor="#0d6e6a"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittextbg"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:hint="Email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textColorHint="#0D6E6A"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittextbg"
+        android:drawableRight="@drawable/ic_baseline_lock_24"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textColorHint="#0D6E6A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/forgetpasword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:onClick="onpress"
+        android:text="Forget Password?"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#710F0F"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="#0D6E6A" />.
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="ontouch"
+        android:text="New user? sign Up"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+</LinearLayout>
+
+</ScrollView>
